@@ -1,0 +1,5 @@
+- hosts: all
+  become: yes
+  task: 
+  - name: git install
+    yum: name=git state=absent
