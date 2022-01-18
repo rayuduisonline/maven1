@@ -1,0 +1,2 @@
+[servers]
+3.109.123.224 ansible_user=ec2-user
