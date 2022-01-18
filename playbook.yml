@@ -2,4 +2,4 @@
   become: yes
   tasks: 
   - name: git install
-    yum: name=git state=absent
+    yum: name=git state=latest
